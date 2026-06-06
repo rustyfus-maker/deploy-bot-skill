@@ -1,0 +1,9 @@
+{
+  "name": "deploy-bot",
+  "displayName": "Deploy-Bot",
+  "description": "Inspect a codebase, interview the user, and generate an AWS/Azure/GCP deployment package with diagrams, service matrix, IaC plan, CI/CD, security, and runbook guidance.",
+  "version": "0.1.0",
+  "categories": ["cloud", "deployment", "devops", "architecture"],
+  "providers": ["aws", "azure", "gcp", "hybrid"],
+  "license": "MIT"
+}
