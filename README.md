@@ -1,12 +1,12 @@
 # Deploy-Bot Skill
 
-Deploy-Bot is an installable AI skill for turning an unknown codebase into a practical AWS, Azure, GCP, or hybrid cloud deployment package.
+Deploy-Bot is an installable AI skill for turning an unknown codebase into a practical Vercel, Railway, AWS, Azure, GCP, PaaS, or hybrid cloud deployment package.
 
 ## What it does
 
 - Inspects the user's codebase and detects app/runtime/dependency signals.
 - Runs a short deployment interview to gather missing requirements.
-- Recommends AWS, Azure, GCP, or hybrid architecture.
+- Recommends Vercel, Railway, Vercel + Railway, AWS, Azure, GCP, or hybrid architecture.
 - Produces a deployment diagram, cloud service matrix, infrastructure plan, CI/CD guidance, security checklist, runbook, and cost/scaling notes.
 
 ## Skill structure
@@ -17,6 +17,7 @@ references/
   aws.md
   azure.md
   gcp.md
+  paas.md
 templates/
   interview.md
   service-matrix.md

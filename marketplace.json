@@ -1,9 +1,9 @@
 {
   "name": "deploy-bot",
   "displayName": "Deploy-Bot",
-  "description": "Inspect a codebase, interview the user, and generate an AWS/Azure/GCP deployment package with diagrams, service matrix, IaC plan, CI/CD, security, and runbook guidance.",
+  "description": "Inspect a codebase, interview the user, and generate a Vercel/Railway/AWS/Azure/GCP deployment package with diagrams, service matrix, platform config or IaC plan, CI/CD, security, and runbook guidance.",
   "version": "0.1.0",
   "categories": ["cloud", "deployment", "devops", "architecture"],
-  "providers": ["aws", "azure", "gcp", "hybrid"],
+  "providers": ["vercel", "railway", "aws", "azure", "gcp", "hybrid", "paas"],
   "license": "MIT"
 }
